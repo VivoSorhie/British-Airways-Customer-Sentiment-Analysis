@@ -1,9 +1,8 @@
 # British Airways Review: Sentiment Analysis & Interactive Dashboard
 
-> An end-to-end project analyzing 3,500+ customer reviews to build a sentiment prediction model and an interactive Tableau dashboard for strategic insights.
+> An end-to-end project analyzing customer reviews to build a sentiment prediction model and an interactive Tableau dashboard for strategic insights.
 
-![Tableau Dashboard Screenshot](image_b15e25.jpg) 
-*(Note: You will need to add your dashboard screenshot to an 'images' folder in your GitHub repo and update the path)*
+![Tableau Dashboard Screenshot](British-Airways-Tableau.png)
 
 ---
 
@@ -13,13 +12,13 @@
 * [Key Insights from EDA](#key-insights-from-eda)
 * [Tech Stack](#tech-stack)
 * [Modeling and Results](#modeling-and-results)
-* [Installation and Usage](#installation-and-usage)
+
 
 ---
 
 ## Project Overview
 
-This project analyzes over 3,500 historical customer reviews of British Airways to uncover actionable insights for improving customer experience. It involves a two-pronged approach:
+This project analyzes over 5K+ historical customer reviews of British Airways to uncover actionable insights for improving customer experience. It involves a two-pronged approach:
 
 1.  **NLP Sentiment Model**: A machine learning model trained to accurately classify review text as positive or negative.
 2.  **Business Intelligence Dashboard**: An interactive Tableau dashboard created to visualize key trends and allow stakeholders to explore the data dynamically.
@@ -30,11 +29,13 @@ The ultimate goal is to translate raw customer feedback into a strategic tool fo
 
 ## Interactive Dashboard
 
-A key deliverable of this project is a comprehensive Tableau dashboard designed for business users. It provides a high-level overview of customer satisfaction and allows for deep-dive analysis.
+A key deliverable of this project is a comprehensive and interactive Tableau dashboard designed for business users. It provides a high-level overview of customer satisfaction and allows for deep-dive analysis into the factors driving reviews.
+
+**[➡️ Click here to view the live interactive dashboard](https://public.tableau.com/app/profile/vivo.sorhie/viz/BritishAirways_17114720180080/Dashboard1)**
 
 **Key Features:**
-* **Executive KPIs**: At-a-glance metrics for overall rating and specific service components like Cabin Staff, Food, Ground Service, and Value for Money.
-* **Dynamic Filtering**: Ability to slice the data by date, continent, aircraft type, seat class, and traveller type.
+* **Live KPIs**: At-a-glance metrics for overall rating and specific service components like Cabin Staff, Food, Ground Service, and Value for Money.
+* **Dynamic Filtering**: Ability to slice the data by date, continent, aircraft type, seat class, and traveller type to uncover specific insights.
 * **Multiple Views**: Includes temporal trends, geographical performance maps, and categorical breakdowns to provide a holistic understanding of the customer experience.
 
 ---
@@ -43,7 +44,7 @@ A key deliverable of this project is a comprehensive Tableau dashboard designed 
 
 * **Declining Satisfaction**: Analysis revealed a consistent downward trend in average customer ratings since a peak in 2014, hitting an all-time low in recent years.
 * **Service Weaknesses**: `Value for Money` and `Ground Service` were identified as the most significant drivers of customer dissatisfaction.
-* **Polarized Feedback**: The review data is highly polarized, with a large volume of very negative reviews (1/10) and a smaller cluster of positive reviews (7-10/10).
+* **Polarized Feedback**: The review data is highly polarized, with a large volume of very negative reviews (rated 1/10) and a smaller cluster of positive reviews (7-10/10).
 
 ---
 
@@ -67,4 +68,3 @@ The project focused on a binary classification task: identifying reviews as **Po
     * **Positive Sentiment F1-Score**: 0.89
 
 ---
-
